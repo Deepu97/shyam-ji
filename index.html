@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body onload="multiy()" id="body">
+    <div class="top" id="data">
+        <div class="main">
+        <p>GSTIN: 06BWWPS4296M1ZA</p>
+        <p> || TAX INVOICE</p>
+        <p>M: 9466418013</p>
+    </div>
+    <div class="title">
+     <h1>SHREE SHYAM JI BUILDING METERIAL SUPPLIER</h1>
+    </div>
+    <div class="addr">
+        <div class="add">
+        <p>
+            Berli-kosli Road,Mandhiya Khurd
+        </p>
+        <p>Distt. Rewari-123401 (Haryana)</p>
+        </div >
+        <div class="set">
+            <p>State code: 06</p>
+        </div>
+    
+    </div>
+    <div class="detail">
+        <div class="new">
+        <div>
+        <label class="into" for="">MR/s:   </label>
+        <input class="many" type="text" name="" id="">
+    </div>
+    <div>
+        <label class="into" for="">ADDRESS:</label>
+        <input class="many" type="text" name="" id=""> 
+    </div>
+    <div>
+    <label class="into" for="">Party GSTIN:</label>
+    <input class="many" type="text" name="" id="">
+</div>
+</div>
+<div class="old">
+    <div>
+    <label class="siz" for="">Sr.No    :</label>
+    <input class="sutt" type="text" name="" id="sr1">
+</div>
+<div>
+    <label  class="siz" for="">DATE :</label>
+    <input class="sutt" type="text" name="" id="">
+</div>
+<div>
+    <label  class="siz" for="">Time    :</label>
+    <input class="sutt" type="text" name="" id="">
+</div>
+<div>
+    <label  class="siz" for="">Vehical.No</label>
+    <input class="sutt" type="text" name="" id="">
+</div>
+</div>
+            </div>
+<div class="product">
+<div class="you">
+    
+    <p id="onep">Items</p>
+    <textarea name="" id="fon" cols="10" rows="2"></textarea>
+
+</div>
+<div class="you1">
+
+    <p id="onep">HSN/CODE</p>
+
+    <textarea name="" id="fon" cols="10" rows="2"></textarea>
+
+</div>
+<div class="you2">
+
+        <p id="onep">quantity</p>
+
+ 
+    <input class="big" type="text" name="" value="0" id="sum1"  onchange="multiy()">
+    
+
+</div>
+<div class="you3">
+
+    <p id="onep">price</p>
+
+
+    <input class="big" type="text" name="" value="0" id="sum2"  onchange="multiy()">
+
+</div>
+<div class="you4">
+
+    <p id="onep">amount</p>
+
+    <input class="big1" type="text" name="" id="res" readonly onchange="gst1()" >
+</div>
+</div>
+<div class="gst">
+    <div class="hide">
+<div>
+    <label for="">SGST</label>
+    <input type="text" class="raw" id="sgs" value="0" onchange="gst1()"><span>%</span>
+</div>
+<div>
+    <label for="">CGST</label>
+    <input type="text" class="raw" id="sgs1" value="0" onchange="gst1()"><span>%</span>
+</div>
+</div>
+<div class="hide1">
+    <div>
+    <input type="text" id="act" readonly onchange="gst1()" >
+    </div>
+    <div>
+    <input type="text" id="act2" readonly onchange="gst1()" >
+    </div>
+</div>
+</div>
+<div class="grand">
+    <div>
+    <label for=""><button  id="ig" onclick="fun()">Grand Total</button></label>
+<input type="text" id="total" readonly >
+</div>
+</div>
+<div class="print">
+<button id="mod" onclick="window.print()">PRINT INVOICE</button>
+</div>
+
+</div>
+
+
+
+    <script src="gst.js">
+
+    </script>
+</body>
+</html>
